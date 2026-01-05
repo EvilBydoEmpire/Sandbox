@@ -1,0 +1,362 @@
+{
+  "assets": [
+    {
+      "assetId": "asset_pdf_chart_en",
+      "type": "image",
+      "title": "Sprint 12 Burndown Anomaly",
+      "url": "/assets/sprint12_chart.svg",
+      "pageNo": 3
+    },
+    {
+      "assetId": "asset_pdf_chart_de",
+      "type": "image",
+      "title": "Sprint 12 Burndown Anomaly (DE)",
+      "url": "/assets/sprint12_chart.svg",
+      "pageNo": 3
+    }
+  ],
+  "docs": [
+    {
+      "docId": "confluence_en",
+      "title": "Engineering Playbook: Scrum Rituals",
+      "sourceType": "confluence",
+      "sourceLabel": "Confluence / Engineering",
+      "urlLabel": "confluence.acme.local/playbooks/scrum",
+      "lang": "en"
+    },
+    {
+      "docId": "confluence_de",
+      "title": "Engineering Playbook: Scrum-Rituale",
+      "sourceType": "confluence",
+      "sourceLabel": "Confluence / Engineering",
+      "urlLabel": "confluence.acme.local/playbooks/scrum",
+      "lang": "de"
+    },
+    {
+      "docId": "jira_scope_en",
+      "title": "Jira Ticket: Scope change handshake",
+      "sourceType": "jira",
+      "sourceLabel": "Jira / Delivery",
+      "urlLabel": "jira.acme.local/browse/DEL-2147",
+      "lang": "en"
+    },
+    {
+      "docId": "jira_scope_de",
+      "title": "Jira-Ticket: Abstimmung Scope Change",
+      "sourceType": "jira",
+      "sourceLabel": "Jira / Delivery",
+      "urlLabel": "jira.acme.local/browse/DEL-2147",
+      "lang": "de"
+    },
+    {
+      "docId": "sharepoint_policy_en",
+      "title": "Policy: Change Management & Escalation",
+      "sourceType": "sharepoint",
+      "sourceLabel": "SharePoint / PMO",
+      "urlLabel": "sharepoint/sites/pmo/change-mgmt",
+      "lang": "en"
+    },
+    {
+      "docId": "sharepoint_policy_de",
+      "title": "Richtlinie: Change Management & Eskalation",
+      "sourceType": "sharepoint",
+      "sourceLabel": "SharePoint / PMO",
+      "urlLabel": "sharepoint/sites/pmo/change-mgmt",
+      "lang": "de"
+    },
+    {
+      "docId": "pdf_report_en",
+      "title": "Sprint 12 Report",
+      "sourceType": "pdf",
+      "sourceLabel": "PDF / Reporting",
+      "urlLabel": "files/reports/sprint-12.pdf",
+      "lang": "en",
+      "assets": ["asset_pdf_chart_en"]
+    },
+    {
+      "docId": "pdf_report_de",
+      "title": "Sprint 12 Bericht",
+      "sourceType": "pdf",
+      "sourceLabel": "PDF / Reporting",
+      "urlLabel": "files/reports/sprint-12.pdf",
+      "lang": "de",
+      "assets": ["asset_pdf_chart_de"]
+    },
+    {
+      "docId": "web_blog_en",
+      "title": "Internal blog: Estimation pitfalls",
+      "sourceType": "web",
+      "sourceLabel": "Intranet / Blogs",
+      "urlLabel": "intranet/blog/estimation-pitfalls",
+      "lang": "en"
+    },
+    {
+      "docId": "web_blog_de",
+      "title": "Intranet Blog: Schätzfallen",
+      "sourceType": "web",
+      "sourceLabel": "Intranet / Blogs",
+      "urlLabel": "intranet/blog/estimation-pitfalls",
+      "lang": "de"
+    },
+    {
+      "docId": "jira_interrupt_en",
+      "title": "Jira Ticket: Production incident during sprint",
+      "sourceType": "jira",
+      "sourceLabel": "Jira / SRE",
+      "urlLabel": "jira.acme.local/browse/SRE-88",
+      "lang": "en"
+    },
+    {
+      "docId": "jira_interrupt_de",
+      "title": "Jira-Ticket: Produktionsvorfall im Sprint",
+      "sourceType": "jira",
+      "sourceLabel": "Jira / SRE",
+      "urlLabel": "jira.acme.local/browse/SRE-88",
+      "lang": "de"
+    }
+  ],
+  "chunks": [
+    {
+      "chunkId": "c1",
+      "docId": "confluence_en",
+      "text": "Sprint Planning: lock scope with a clear Sprint Goal, slice work into small backlog items and identify risks early.",
+      "lang": "en",
+      "anchors": {"section": "Planning"},
+      "keywordScore": 0.86,
+      "vectorScore": 0.79,
+      "rerankScore": 0.9,
+      "tags": ["planning"]
+    },
+    {
+      "chunkId": "c2",
+      "docId": "confluence_en",
+      "text": "Daily Scrum: inspect progress toward the Sprint Goal, adapt the plan for the next 24 hours, keep it to 15 minutes.",
+      "lang": "en",
+      "anchors": {"section": "Daily Scrum"},
+      "keywordScore": 0.72,
+      "vectorScore": 0.61,
+      "rerankScore": 0.88
+    },
+    {
+      "chunkId": "c3",
+      "docId": "confluence_en",
+      "text": "Sprint Review: demo completed increments to stakeholders, focus on outcomes and changes in scope.",
+      "lang": "en",
+      "anchors": {"section": "Review"},
+      "keywordScore": 0.63,
+      "vectorScore": 0.59,
+      "rerankScore": 0.76
+    },
+    {
+      "chunkId": "c4",
+      "docId": "confluence_en",
+      "text": "Retrospective: inspect team health, decide one improvement and one stop doing action per sprint.",
+      "lang": "en",
+      "anchors": {"section": "Retro"},
+      "keywordScore": 0.41,
+      "vectorScore": 0.58,
+      "rerankScore": 0.62
+    },
+    {
+      "chunkId": "c5",
+      "docId": "confluence_en",
+      "text": "Handling scope change: negotiate with Product Owner, protect Sprint Goal, only swap items if capacity permits and risk is reviewed.",
+      "lang": "en",
+      "anchors": {"section": "Scope"},
+      "keywordScore": 0.94,
+      "vectorScore": 0.84,
+      "rerankScore": 0.96,
+      "tags": ["scope-change"]
+    },
+    {
+      "chunkId": "c6",
+      "docId": "confluence_en",
+      "text": "Definition of Done: include code review, tests, documentation and deployment checklist before claiming completion.",
+      "lang": "en",
+      "anchors": {"section": "Definition of Done"},
+      "keywordScore": 0.53,
+      "vectorScore": 0.55,
+      "rerankScore": 0.64
+    },
+    {
+      "chunkId": "c7",
+      "docId": "jira_scope_en",
+      "text": "Ticket notes: scope change requested mid-sprint; acceptance requires Product Owner approval and updated Sprint Goal note.",
+      "lang": "en",
+      "anchors": {"section": "Comments"},
+      "keywordScore": 0.89,
+      "vectorScore": 0.74,
+      "rerankScore": 0.9,
+      "tags": ["scope-change"]
+    },
+    {
+      "chunkId": "c8",
+      "docId": "jira_scope_en",
+      "text": "Acceptance criteria: change backlog item only if new item fits remaining capacity; communicate to stakeholders in Review.",
+      "lang": "en",
+      "anchors": {"section": "Acceptance"},
+      "keywordScore": 0.7,
+      "vectorScore": 0.71,
+      "rerankScore": 0.86
+    },
+    {
+      "chunkId": "c9",
+      "docId": "sharepoint_policy_en",
+      "text": "Change Management workflow: for scope change above 3 story points, require Engineering Manager and PO sign-off, log in escalation register.",
+      "lang": "en",
+      "anchors": {"section": "Workflow"},
+      "keywordScore": 0.82,
+      "vectorScore": 0.77,
+      "rerankScore": 0.93,
+      "tags": ["scope-change"]
+    },
+    {
+      "chunkId": "c10",
+      "docId": "pdf_report_en",
+      "text": "Narrative: unplanned production incident caused scope churn; sprint goal partially met after re-negotiation.",
+      "lang": "en",
+      "anchors": {"pageNo": 2},
+      "keywordScore": 0.57,
+      "vectorScore": 0.69,
+      "rerankScore": 0.75
+    },
+    {
+      "chunkId": "c11",
+      "docId": "pdf_report_en",
+      "text": "Vision extraction: burndown chart shows anomaly mid-week due to unplanned work; team re-baselined scope to recover velocity.",
+      "lang": "en",
+      "anchors": {"pageNo": 3},
+      "assetRefs": ["asset_pdf_chart_en"],
+      "keywordScore": 0.38,
+      "vectorScore": 0.65,
+      "rerankScore": 0.85,
+      "isVisionDerived": true,
+      "tags": ["vision", "burndown"]
+    },
+    {
+      "chunkId": "c12",
+      "docId": "web_blog_en",
+      "text": "Estimation pitfalls: highlight capacity buffers for interrupts, avoid overfitting to past velocity, keep refinement tight.",
+      "lang": "en",
+      "anchors": {"section": "Guidance"},
+      "keywordScore": 0.44,
+      "vectorScore": 0.68,
+      "rerankScore": 0.74
+    },
+    {
+      "chunkId": "c13",
+      "docId": "jira_interrupt_en",
+      "text": "SRE comment: when production incident hits, protect Sprint Goal; temporarily pause lower-priority items and document scope change.",
+      "lang": "en",
+      "anchors": {"section": "SRE"},
+      "keywordScore": 0.71,
+      "vectorScore": 0.73,
+      "rerankScore": 0.81
+    },
+    {
+      "chunkId": "c14",
+      "docId": "web_blog_en",
+      "text": "Kanban-only guidance: avoid timeboxed reviews; measure flow efficiency instead of sprint commitments.",
+      "lang": "en",
+      "anchors": {"section": "Misdirection"},
+      "keywordScore": 0.69,
+      "vectorScore": 0.83,
+      "rerankScore": 0.35,
+      "tags": ["misleading"]
+    },
+    {
+      "chunkId": "d1",
+      "docId": "confluence_de",
+      "text": "Sprint Planning: Sprint-Ziel klar formulieren, Backlog-Items zuschneiden und Risiken transparent machen.",
+      "lang": "de",
+      "anchors": {"section": "Planning"},
+      "keywordScore": 0.82,
+      "vectorScore": 0.78,
+      "rerankScore": 0.9
+    },
+    {
+      "chunkId": "d2",
+      "docId": "confluence_de",
+      "text": "Scope-Änderungen: nur tauschen, wenn Kapazität passt; Product Owner entscheidet, Team bewertet Risiko.",
+      "lang": "de",
+      "anchors": {"section": "Scope"},
+      "keywordScore": 0.91,
+      "vectorScore": 0.83,
+      "rerankScore": 0.95,
+      "tags": ["scope-change"]
+    },
+    {
+      "chunkId": "d3",
+      "docId": "sharepoint_policy_de",
+      "text": "Change-Management: über 3 Story Points braucht es Freigabe von PO und Engineering Manager; Eintrag ins Eskalationsregister.",
+      "lang": "de",
+      "anchors": {"section": "Workflow"},
+      "keywordScore": 0.85,
+      "vectorScore": 0.8,
+      "rerankScore": 0.94
+    },
+    {
+      "chunkId": "d4",
+      "docId": "pdf_report_de",
+      "text": "Visuelle Extraktion: Burndown-Grafik zeigt Ausreißer wegen ungeplanter Arbeit; Team hat Scope neu verhandelt.",
+      "lang": "de",
+      "anchors": {"pageNo": 3},
+      "assetRefs": ["asset_pdf_chart_de"],
+      "keywordScore": 0.4,
+      "vectorScore": 0.66,
+      "rerankScore": 0.86,
+      "isVisionDerived": true
+    },
+    {
+      "chunkId": "d5",
+      "docId": "jira_scope_de",
+      "text": "Ticket-Kommentar: Scope Change mitten im Sprint; Akzeptanz nur nach PO-Zustimmung und Aktualisierung des Sprint-Ziels.",
+      "lang": "de",
+      "anchors": {"section": "Comments"},
+      "keywordScore": 0.88,
+      "vectorScore": 0.76,
+      "rerankScore": 0.91
+    },
+    {
+      "chunkId": "d6",
+      "docId": "web_blog_de",
+      "text": "Schätzfallen: Puffer für Unterbrechungen einplanen, keine Überanpassung an vergangene Velocity, klare Refinements.",
+      "lang": "de",
+      "anchors": {"section": "Guidance"},
+      "keywordScore": 0.46,
+      "vectorScore": 0.69,
+      "rerankScore": 0.78
+    },
+    {
+      "chunkId": "d7",
+      "docId": "jira_interrupt_de",
+      "text": "SRE-Hinweis: bei Produktionsvorfall Sprint-Ziel schützen, niedriger priorisierte Items parken und Scope-Änderung dokumentieren.",
+      "lang": "de",
+      "anchors": {"section": "SRE"},
+      "keywordScore": 0.73,
+      "vectorScore": 0.72,
+      "rerankScore": 0.83
+    },
+    {
+      "chunkId": "d8",
+      "docId": "web_blog_de",
+      "text": "Kanban-spezifisch: keine timeboxed Reviews; Fokus auf Flow-Effizienz statt Sprint Commitments.",
+      "lang": "de",
+      "anchors": {"section": "Misdirection"},
+      "keywordScore": 0.7,
+      "vectorScore": 0.82,
+      "rerankScore": 0.36,
+      "tags": ["misleading"]
+    },
+    {
+      "chunkId": "d9",
+      "docId": "pdf_report_de",
+      "text": "Ergebnis: Sprint-Ziel teilweise erreicht nach Neuverhandlung; ungeplante Arbeit führte zu Kapazitätsverlust.",
+      "lang": "de",
+      "anchors": {"pageNo": 2},
+      "keywordScore": 0.55,
+      "vectorScore": 0.68,
+      "rerankScore": 0.74
+    }
+  ]
+}
